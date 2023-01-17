@@ -3,14 +3,12 @@ def switch_engrus(s1s2):
     masRUS = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
     masENG = "f,dult`;pbqrkvyjghcnea[wxio]sm'"'.zF<DULT~:PBQRKVYJGHCNEA{WXIO}SM">Z'
     enc = s1s2.maketrans(masENG,masRUS)
-    s3 = s1s2.translate(enc)
-    return s3
+    return s1s2.translate(enc)
 def switch_ruseng(s1s2):
     masRUS = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
     masENG = "f,dult`;pbqrkvyjghcnea[wxio]sm'"'.zF<DULT~:PBQRKVYJGHCNEA{WXIO}SM">Z'
     enc = s1s2.maketrans(masRUS,masENG)
-    s3 = s1s2.translate(enc)
-    return s3
+    return s1s2.translate(enc)
 
 print("Choose mode: \n"
       "1 - Eng to Rus \n"
